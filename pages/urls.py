@@ -19,6 +19,6 @@ urlpatterns = [
     path('', home, name = 'home'),
     path('cars/', cars, name = 'cars'),
     path('about/', about, name = 'about'),
-    path('services/', contact, name = 'services'),
-    path('contact/', services, name = 'contact'),
+    path('services/', services, name = 'services'),
+    path('contact/', contact, name = 'contact'),
 ]
